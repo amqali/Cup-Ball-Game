@@ -38,7 +38,7 @@ def cup_ball_game():
             print("\nWrong, Correct Answer is: row: {r} , col: {c}".format(r=row, c=col))
             y = input("Try again? (y/n): ")
             if y == "y":
-                table() == True
+                cup_ball_game() == True
             else:
                 break
 
